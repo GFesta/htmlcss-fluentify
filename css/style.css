@@ -11,13 +11,14 @@ body {
 }
 
 header {
+  height: 60vh;
   width: 100%;
-  height: 50vh;
 }
 
+
 .logo-menu {
-  height: 50vh;
-  background-color: blue;
+  height: 15vh;
+  background-color: #13289ef0;
 }
 
 .logo {
@@ -25,9 +26,9 @@ header {
   margin: 5px;
 }
 
-img {
+/* img.logo {
   float: left;
-}
+} */
 img ul.menu {
   list-style: none;
   text-align: center;
@@ -53,4 +54,136 @@ ul.menu li {
   display: inline-block;
   text-transform: uppercase;
   padding: 0 15px;
+}
+
+
+.button-0 {
+  width: 60px;
+  border: solid;
+  border-color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button-1 {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+.one {
+  margin-left: 15%;
+}
+.banner-blue {
+  position: relative;
+  height: 60vh;
+  background-color: #13289ef0;
+}
+
+.banner-blue img {
+  object-fit: cover;
+
+}
+
+.banner-text {
+  position: absolute;
+  bottom: 20vh;
+  width: 60%;
+  padding: 50px;
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.banner-1 {
+  width: auto;
+  height: 50vh;
+  position: relative;
+  object-position: right;
+  top: 72px;
+  left: 40vw;
+}
+
+.button-2 {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.banner-grey {
+  width: 100%;
+  height: 20vh;
+  background-color: grey;
+}
+
+main {
+  height: 15vh;
+  width: 100%;
+  background-color: lightgrey;
+}
+
+.middle-text {
+  text-align: center;
+  /* padding: 15px; */
+}
+
+/* .clearfix {
+  height: 60vh;
+  width: 100%;
+} */
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col {
+  float: left;
+}
+.col:first-child {
+  padding: 10px 10px 10px 0;
+}
+
+.col-image {
+  position: relative;
+  overflow: hidden;
+}
+.col-image img {
+  height: 200px;
+  margin: 15px;
+  padding: 10px;
+  object-fit: cover;
+}
+.col-text {
+  margin-top: 10px;
+}
+.col-text h4 {
+  margin-bottom: 10px;
 }
