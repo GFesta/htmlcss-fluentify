@@ -25,6 +25,8 @@ body {
 }
 
 .col-3 {
+  float: left;
+  position: relative;
   width: 33.33%
 }
 
@@ -42,8 +44,6 @@ background-color: #13289ef0;
   background-repeat: no-repeat;
   background-position: 115% 110%;
   background-size: 1000px;
-
-
 }
 
 .header-nav {
@@ -140,4 +140,26 @@ background-color: #13289ef0;
   top: 60%;
   left: 0;
   transform: translateY(-50%);
+}
+
+.efficenza{
+  text-align: center;
+  color: #605858;
+}
+
+.bg-grey {
+  height: 80px;
+  background-color: lightgrey;
+}
+
+.info {
+  height: 80vh;
+}
+
+.col-image {
+  height: 150px;
+}
+
+.col {
+  position: relative;
 }
