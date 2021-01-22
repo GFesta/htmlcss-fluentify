@@ -15,6 +15,16 @@ header {
   width: 100%;
 }
 
+.box-logo {
+  margin-left: 30vh;
+}
+
+.box-logo,
+.box-nav {
+  float: left;
+  width: auto;
+  margin-top:10px;
+}
 
 .logo-menu {
   height: 15vh;
@@ -26,9 +36,6 @@ header {
   margin: 5px;
 }
 
-/* img.logo {
-  float: left;
-} */
 img ul.menu {
   list-style: none;
   text-align: center;
@@ -84,10 +91,6 @@ ul.menu li {
   cursor: pointer;
 }
 
-
-.one {
-  margin-left: 15%;
-}
 .banner-blue {
   position: relative;
   height: 60vh;
@@ -153,15 +156,14 @@ main {
   /* padding: 15px; */
 }
 
-/* .clearfix {
-  height: 60vh;
-  width: 100%;
-} */
-
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
+}
+
+.box-3-col {
+  height: 80vh;
 }
 
 .col {
@@ -173,6 +175,7 @@ main {
 
 .col-image {
   position: relative;
+  top: 40px;
   overflow: hidden;
 }
 .col-image img {
