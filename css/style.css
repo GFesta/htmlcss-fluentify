@@ -30,6 +30,15 @@ body {
   width: 33.33%
 }
 
+.col-text {
+  text-align: center;
+  padding: 20px;
+}
+
+img {
+  height: 85%;
+}
+
 header {
 height: 500px;
 background-color: #13289ef0;
@@ -153,13 +162,82 @@ background-color: #13289ef0;
 }
 
 .info {
-  height: 80vh;
+  height: 40vh;
 }
 
 .col-image {
-  height: 150px;
+  height: 40%;
+}
+
+img {
+  height: 90px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .col {
   position: relative;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.piano-personalizzato {
+  height: 40vh;
+  width: 40%;
+  position: relative;
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-left {
+  float: left;
+  margin: 30px;
+  width: 33%;
+  height: 50%;
+}
+
+.text-right {
+  position: relative;
+}
+
+ /* footer */
+ footer {
+  background-color: #777;
+  padding: 10px;
+  color: white;
+  height: 25vh;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col-4 {
+  float: left;
+  padding: 45px;
+  margin: 30px 30px 30px;
+}
+
+.text-footer {
+  font-size: 20px;
+}
+
+.btn-footer {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  line-height: 20px;
+  color: white;
+  background-color: #21a537;
+  margin-left: 60px;
 }
